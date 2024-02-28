@@ -1,0 +1,66 @@
+.cont-slot-mac{
+  display: flex;
+  height: 100%;
+}
+#slot-machine{
+	border-radius: 5px;
+	background-color: #5c567e;
+	margin-top: 30px;
+	padding: 20px;
+	width: 500px;
+	margin: auto;
+	text-align: center;
+}
+h2#title{
+	color: white;
+	font-size: 26px;
+	text-align: center;
+	padding:10px;
+}
+
+section.slots{
+	display: flex;
+	justify-content: space-around;
+	border-radius: 15px;
+	background-color: #FAFAFA;
+	padding: 20px;
+}
+
+#buttonSlot{
+	color: white;
+  width: 100%;
+	font-size: 26px;
+	text-align: center;
+	margin: 25px auto;
+	padding: 20px;
+	background-color: #D83E43;
+	border: 1px solid #e6bc99;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.icons{
+	font-size: 50px;
+	text-align: center;
+	margin:10px;
+}
+
+#buttonSlot:hover{
+	background-color: #ec5056;
+}
+
+div#result{
+	width: 70%;
+	margin: 20px auto;
+	border: 1px solid #f48787;
+	border-radius: 15px;
+	background-color: #f5a1a1;
+	padding: 10px;
+}
+.btns-money{
+  width: 100%;
+}
+.btn-money{
+  width: 100%;
+  height: 100%;
+
+}

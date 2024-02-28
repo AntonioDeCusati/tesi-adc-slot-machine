@@ -1,0 +1,28 @@
+<div class="cont-slot-mac">
+  <div id="slot-machine">
+    <h2 id="title">Slot Machine Game</h2>
+    <div class="d-flex justify-content-evenly btns-money">
+      <div>
+        <button class="btn btn-primary btn-money" (click)="addMoney(1)">1€</button>
+      </div>
+      <div>
+        <button class="btn btn-primary btn-money" (click)="addMoney(5)">5€</button>
+      </div>
+      <div>
+        <button class="btn btn-primary btn-money" (click)="addMoney(10)">10€</button>
+      </div>
+    </div>
+    <div id="result">
+      <div>Saldo: {{saldo}} </div>
+    </div>
+    <section class="slots" #slots id="slots">
+      <div id="slot1" #slot1 class="icons"></div>
+      <div id="slot2" #slot2 class="icons"></div>
+      <div id="slot3" #slot3 class="icons"></div>
+    </section>
+    <button #buttonSlot id="buttonSlot" class="btn" [disabled]="disableButton" (click)="game()">
+      Play</button>
+
+
+  </div>
+</div>
